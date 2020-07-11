@@ -2,7 +2,6 @@ package br.com.danielsan.app
 
 import javafx.scene.Scene
 import javafx.stage.Stage
-import kotlinx.coroutines.launch
 import br.com.danielsan.data.datasources.GithubUserDataSource
 import br.com.danielsan.domain.UserSearchUseCase
 import br.com.danielsan.app.javafx.CoroutineScopeApplication
@@ -23,6 +22,7 @@ import javafx.scene.control.Label
 import javafx.scene.layout.VBox
 import javafx.scene.text.Font
 import javafx.scene.text.FontWeight
+import kotlinx.coroutines.async
 import org.controlsfx.control.Notifications
 import java.time.LocalDate
 
@@ -105,7 +105,7 @@ class MainApplication : CoroutineScopeApplication(), UserSearchView {
                 it.text = "Entrar"
                 it.setSafeOnMouseClicked {
                     println("Test")
-                    launch { presenter.onUserToSearch("danielsanfr") }
+                    async { presenter.onUserToSearch("danielsanfr") }
                 }
             })
         }

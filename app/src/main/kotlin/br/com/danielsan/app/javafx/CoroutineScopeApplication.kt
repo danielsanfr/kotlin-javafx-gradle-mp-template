@@ -11,7 +11,7 @@ abstract class CoroutineScopeApplication : Application(), CoroutineScope by Main
     final override fun stop() {
         super.stop()
         cancel()
-        // If you don't use this the application will continue to run because of the use of Coroutine.
+        // If you don't use this the application will continue to run because of the use of Coroutines.
         exitProcess(0)
     }
 
