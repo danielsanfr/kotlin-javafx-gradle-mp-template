@@ -1,6 +1,6 @@
 # Kotlin JavaFX Gradle Multi-projects Template
 
-![GitHub](https://img.shields.io/github/license/danielsanfr/kotlin-javafx-gradle-mp-template?color=light-green&label=%20&logo=open-source-initiative&logoColor=white) ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/danielsanfr/kotlin-javafx-gradle-mp-template?sort=semver)
+![GitHub](https://img.shields.io/github/license/danielsanfr/kotlin-javafx-gradle-mp-template?logo=open-source-initiative&logoColor=white) ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/danielsanfr/kotlin-javafx-gradle-mp-template?sort=semver)
 
 A template for create an application using Kotlin and JavaFX with Gradle's Multi-projects configured.
 
